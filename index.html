@@ -1,83 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Axios Games Consulting</title>
+  <meta charset="UTF-8">
+  <title>Axios Games Consulting</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style>
-        body {
-            margin: 0;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            background: #0f0f10;
-            color: #eaeaea;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            text-align: center;
-        }
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #0f0f0f;
+      color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+      line-height: 1.7;
+    }
 
-        .container {
-            max-width: 600px;
-            padding: 40px;
-        }
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 100px 24px;
+    }
 
-        h1 {
-            font-size: 40px;
-            margin-bottom: 10px;
-        }
+    h1 {
+      font-size: 34px;
+      font-weight: 600;
+      margin-bottom: 40px;
+      line-height: 1.4;
+    }
 
-        h2 {
-            font-weight: 400;
-            color: #999;
-            margin-bottom: 40px;
-        }
+    h2 {
+      font-size: 14px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-top: 100px;
+      margin-bottom: 24px;
+      color: #888888;
+    }
 
-        ul {
-            list-style: none;
-            padding: 0;
-            margin-bottom: 40px;
-        }
+    p {
+      margin-bottom: 22px;
+      font-size: 18px;
+      color: #d9d9d9;
+    }
 
-        li {
-            margin: 8px 0;
-        }
+    ul {
+      padding-left: 0;
+      list-style: none;
+      font-size: 18px;
+    }
 
-        a.button {
-            display: inline-block;
-            padding: 12px 24px;
-            background: white;
-            color: black;
-            text-decoration: none;
-            border-radius: 6px;
-            font-weight: 600;
-        }
+    li {
+      margin-bottom: 14px;
+      color: #d9d9d9;
+    }
 
-        a.button:hover {
-            opacity: 0.85;
-        }
-    </style>
+    li::before {
+      content: "— ";
+      color: #666666;
+    }
+
+    .pricing p {
+      margin: 8px 0;
+      font-size: 18px;
+    }
+
+    .pricing strong {
+      display: block;
+      margin-top: 18px;
+      color: #ffffff;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 14px 32px;
+      background-color: #ffffff;
+      color: #0f0f0f;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 4px;
+      transition: all 0.2s ease;
+    }
+
+    .button:hover {
+      opacity: 0.85;
+    }
+
+    footer {
+      margin-top: 120px;
+      font-size: 14px;
+      color: #555555;
+    }
+  </style>
 </head>
 
 <body>
-    <div class="container">
-        <h1>Axios Games Consulting</h1>
-        <h2>Under Construction</h2>
 
-        <ul>
-            <li>Game Design</li>
-            <li>Production Strategy</li>
-            <li>Business & Finance</li>
-            <li>Publishing Support</li>
-            <li>Pitch Deck Review</li>
-            <li>Steam Page Optimization</li>
-            <li>Trailer Feedback</li>
-        </ul>
+  <div class="container">
 
-        <a class="button" href="https://calendly.com/" target="_blank">
-            Book a Call
-        </a>
+    <h1>
+      I’m Anton Martinez, a passionate indie game developer building my own games and a former six-figure WFH studio founder. I also help indie devs and studios with design, production, and business strategy.
+    </h1>
+
+    <h2>About Me</h2>
+
+    <p>I’m an indie game developer and former studio founder with 7+ years of experience building games, teams, and businesses.</p>
+
+    <p>I’ve shipped projects, led production, negotiated publishing deals, and built a six-figure work-for-hire studio before shifting my focus to creating original games. Along the way, I’ve worked with international clients, publishers, and teams at different stages of development delivering +$3M USD of results.</p>
+
+    <p>Today, I build my own games and help indie developers and studios with design, production, and strategy.</p>
+
+    <p>My approach is hands-on and practical — rooted in real-world experience, not theory.</p>
+
+    <p>Whether it’s refining a game concept, shaping a Steam page, reviewing a pitch or agreement, or unblocking a team, my goal is always the same: clarity, focus, and results.</p>
+
+    <h2>Services</h2>
+
+    <ul>
+      <li>Trailer</li>
+      <li>Pitch Deck</li>
+      <li>Production</li>
+      <li>Game Design</li>
+      <li>Art Direction</li>
+      <li>Strategy, Business & Finance</li>
+      <li>Steam Page Optimization</li>
+      <li>Pitching & Publishing Negotiation</li>
+    </ul>
+
+    <h2>Pricing</h2>
+
+    <div class="pricing">
+      <p>Solo Dev / 2 Devs — $49.99 USD</p>
+      <p>Small Team (3–5) — $99.99 USD</p>
+      <p>Mid Team (6–20) — $149.99 USD</p>
+      <p>Large Team / Publisher (20+) — $249.99 USD</p>
+      <strong>10 focused sessions available per week.</strong>
     </div>
+
+    <h2>Book a Session</h2>
+
+    <a class="button" href="YOUR_CALENDLY_LINK_HERE" target="_blank">
+      Book a 1:1 Session
+    </a>
+
+    <footer>
+      © 2026 Anton Martinez — Axios Games Consulting
+    </footer>
+
+  </div>
+
 </body>
 </html>
